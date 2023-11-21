@@ -25,7 +25,7 @@ st.title("Buscador Smiles")
 
 # Form for flight search
 with st.form("flight_search_form"):
-    col1, col2, col3 = st.beta_columns(3)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         origin = st.text_input("Origen", "BUE")
